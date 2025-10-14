@@ -32,6 +32,10 @@ $$
 s=(s_1,\dots,s_5)\in S\equiv\prod_{i\in N}S_i=\{B,R\}^5
 $$
 
+####
+
+####
+
 #### Count statistic for convinience
 
 Define the count of “blonde” attempts at profile $$s$$ by
