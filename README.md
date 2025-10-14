@@ -451,7 +451,7 @@ $$
 $$
 
 $$
-\qquad \pi_2^{\ast}=(p^{\ast}-1)q_2^{\ast} =\left(\frac{11}{4}-1\right)\frac{7}{4} =\boxed{\,\frac{49}{16}\,}.
+\pi_2^{\ast}=(p^{\ast}-1)q_2^{\ast} =\left(\frac{11}{4}-1\right)\frac{7}{4} =\boxed{\,\frac{49}{16}\,}.
 $$
 
 Because quantities are strategic substitutes, the leader commits to a larger quantity than in Cournot, pushing the follower down its reaction curve; this is the textbook “first-mover advantage” in Stackelberg.
