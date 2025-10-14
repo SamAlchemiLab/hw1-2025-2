@@ -140,7 +140,7 @@ $$
 
 #### Step 3. Eight-layer summary
 
-<table><thead><tr><th width="157.6552734375">Layer</th><th width="135.7401123046875">K</th><th>PSNE in the 5-player game</th></tr></thead><tbody><tr><td><span class="math">RRR</span></td><td>0</td><td><span class="math">(\mathbf{B},R,R,R,R), (R,\mathbf{B},R,R,R)</span></td></tr><tr><td><span class="math">RRB</span></td><td>1</td><td><span class="math">(R,R,R,R,\mathbf{B})</span></td></tr><tr><td><span class="math">RBR</span></td><td>1</td><td><span class="math">(R,R,R,\mathbf{B},R)</span></td></tr><tr><td><span class="math">BRR</span></td><td>1</td><td><span class="math">(R,R,\mathbf{B},R,R)</span></td></tr><tr><td><span class="math">RBB</span></td><td>2</td><td>none</td></tr><tr><td><span class="math">BRB</span></td><td>2</td><td>none</td></tr><tr><td><span class="math">BBR</span></td><td>2</td><td>none</td></tr><tr><td><span class="math">BBB</span></td><td>3</td><td>none</td></tr></tbody></table>
+<table><thead><tr><th width="124.16339111328125">Layer</th><th width="75.55670166015625">K</th><th width="393.2718505859375">PSNE in the 5-player game</th></tr></thead><tbody><tr><td><span class="math">RRR</span></td><td>0</td><td><span class="math">(\mathbf{B},R,R,R,R), (R,\mathbf{B},R,R,R)</span></td></tr><tr><td><span class="math">RRB</span></td><td>1</td><td><span class="math">(R,R,R,R,\mathbf{B})</span></td></tr><tr><td><span class="math">RBR</span></td><td>1</td><td><span class="math">(R,R,R,\mathbf{B},R)</span></td></tr><tr><td><span class="math">BRR</span></td><td>1</td><td><span class="math">(R,R,\mathbf{B},R,R)</span></td></tr><tr><td><span class="math">RBB</span></td><td>2</td><td>none</td></tr><tr><td><span class="math">BRB</span></td><td>2</td><td>none</td></tr><tr><td><span class="math">BBR</span></td><td>2</td><td>none</td></tr><tr><td><span class="math">BBB</span></td><td>3</td><td>none</td></tr></tbody></table>
 
 ***
 
@@ -149,7 +149,11 @@ $$
 All and only the profiles with **exactly one** $$B$$ are PSNE:
 
 $$
-(B,R,R,R,R),\ (R,B,R,R,R),\ (R,R,B,R,R),\ (R,R,R,B,R),\ (R,R,R,R,B).
+(B,R,R,R,R),\ (R,B,R,R,R),\ (R,R,B,R,R),
+$$
+
+$$
+\ (R,R,R,B,R),\ (R,R,R,R,B).
 $$
 
 The payoff-matrix case analysis above shows: $$k=0$$ contributes two PSNE (Players 1 or 2 as the unique $$B$$); each $$k=1$$ layer contributes one PSNE (Player 3, 4, or 5 as the unique $$B$$); no PSNE exist when $$k\ge2$$.
