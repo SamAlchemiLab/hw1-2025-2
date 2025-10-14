@@ -1226,7 +1226,15 @@ In words, starting from the usual reaction function and imposing symmetry across
 
 ***
 
-### (c) Cournot with nnn identical firms and the perfect-competition limit
+###
+
+###
+
+###
+
+###
+
+### (c) Cournot with n identical firms and the perfect-competition limit
 
 * Write profit and the reaction (best-response) function for firm $$i$$ against rivals’ total output.
 * Impose symmetry across nnn firms to solve for the Cournot–Nash output, price, and total quantity.
