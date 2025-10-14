@@ -1373,7 +1373,11 @@ $$
 Hence the deadweight loss and the efficiency ratio are
 
 $$
-DWL_n=TS^{\text{pc}}-TS_n=\frac{(A-c)^{2}}{2B}\cdot\frac{1}{(n+1)^{2}}, \qquad \frac{TS_n}{TS^{\text{pc}}}=\frac{n(n+2)}{(n+1)^{2}} =1-\frac{1}{(n+1)^{2}}.
+DWL_n=TS^{\text{pc}}-TS_n=\frac{(A-c)^{2}}{2B}\cdot\frac{1}{(n+1)^{2}},
+$$
+
+$$
+\frac{TS_n}{TS^{\text{pc}}}=\frac{n(n+2)}{(n+1)^{2}} =1-\frac{1}{(n+1)^{2}}.
 $$
 
 So the welfare gap closes _quadratically_ fast in $$n$$.
@@ -1407,7 +1411,7 @@ Relative to this benchmark, the $$n$$-firm Cournot outcome has a price–cost we
 
 #### Derivation
 
-I let $$\pi\in[0,1]$$ be the probability that worker 2 applies to firm 1, so worker 2 applies to firm 2 with probability $$1-\pi$$. When both workers apply to the same firm, that firm hires one of them at random, so worker 1’s hire probability is $$1/2$$. When only worker 1 applies to a firm, worker 1 is hired for sure. Using “expected payoff = wage × hire probability,” I write the two cases below.
+We let $$\pi\in[0,1]$$ be the probability that worker 2 applies to firm 1, so worker 2 applies to firm 2 with probability $$1-\pi$$. When both workers apply to the same firm, that firm hires one of them at random, so worker 1’s hire probability is $$1/2$$. When only worker 1 applies to a firm, worker 1 is hired for sure. Using “expected payoff = wage × hire probability,” I write the two cases below.
 
 For worker 1 applying to firm 1:
 
