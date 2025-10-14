@@ -1099,6 +1099,8 @@ At these prices and incomes, $$B$$ is interior and chooses $$x_B=10-x_A$$​ by 
 
 ***
 
+####
+
 #### Derivation
 
 First, define total quantity as $$Q=q_1+q_2+q_3$$ and recall the inverse demand $$p(Q)=A-BQ$$ with constant marginal cost $$c$$. We write firm $$i$$’s profit taking rivals’ total output $$q_{-i}$$ as given, exactly as in the Cournot setup in the lecture notes that motivates best-response functions.
@@ -1158,6 +1160,8 @@ $$
 In words, each firm chooses $$q_i^{\ast}$$​ given above; adding up gives $$Q^{\ast}$$, and plugging that into inverse demand gives $$p^{\ast}$$. This comes straight from each firm’s best-response to rivals and the symmetry $$q_1=q_2=q_3$$​; the condition $$A>c$$ ensures all three produce a positive amount in equilibrium.
 
 ***
+
+###
 
 ### (b) Generalize the symmetric Cournot equilibrium to n-identical firms
 
