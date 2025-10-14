@@ -300,6 +300,8 @@ $$
 
 Both reaction curves are downward-sloping, so quantities are strategic substitutes: the more one firm produces, the less the other optimally produces.
 
+####
+
 #### Cournot–Nash equilibrium (quantities, price, profits)
 
 At a Cournot equilibrium, each output must be a best response to the other:
@@ -329,6 +331,12 @@ Q^\ast=\frac{7}{2},\qquad p^\ast=8-Q^\ast=\frac{9}{2}.
 $$
 
 Any split with $$q_1+q_2=Q^\ast$$ attains the same joint profit $$\Pi^\ast=(p^\ast-1)Q^\ast=\tfrac{49}{4}=12.25$$; a symmetric split is $$q_1^\ast=q_2^\ast=\tfrac{7}{4}$$​, delivering $$\pi_i^\ast=\tfrac{49}{8}=6.125$$ each.&#x20;
+
+##
+
+##
+
+##
 
 **Why the wedge?**&#x20;
 
