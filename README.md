@@ -694,7 +694,11 @@ u_1\big(e_1,R_2(e_1)\big) \;=\; \frac{1}{2} \;+\; \frac{5}{4}e_1 \;-\; \frac{31}
 $$
 
 $$
-\frac{d}{de_1}u_1\big(e_1,R_2(e_1)\big)= \frac{5}{4}-\frac{31}{16}e_1 = 0 \quad\Rightarrow\quad e_1^{S}=\frac{20}{31},\qquad \frac{d^2}{de_1^2}u_1=-\frac{31}{16}<0.
+\frac{d}{de_1}u_1\big(e_1,R_2(e_1)\big)= \frac{5}{4}-\frac{31}{16}e_1 = 0
+$$
+
+$$
+\Rightarrow\quad e_1^{S}=\frac{20}{31},\qquad \frac{d^2}{de_1^2}u_1=-\frac{31}{16}<0.
 $$
 
 Back-substituting,
@@ -710,7 +714,11 @@ Both choices are strictly positive, so the nonnegativity constraint is indeed sl
 The subgame-perfect strategy profile is:
 
 $$
-s_1^\ast:\ \text{at the initial node, choose } e_1=\frac{20}{31}; \qquad s_2^\ast:\ \text{after any observed } e_1,\ \ e_2=\frac{1}{2}+\frac{e_1}{8}.
+s_1^\ast:\ \text{at the initial node, choose } e_1=\frac{20}{31};
+$$
+
+$$
+s_2^\ast:\ \text{after any observed } e_1,\ \ e_2=\frac{1}{2}+\frac{e_1}{8}.
 $$
 
 By construction, $$s_2^\ast$$​ is a best response in the proper subgame beginning at player 2’s information set, and $$s_1^\ast$$​ optimizes given $$s_2^\ast$$​.
@@ -726,7 +734,7 @@ $$
 #### Answer
 
 $$
-\boxed{ R_2(e_1)=\tfrac{1}{2}+\tfrac{1}{8}e_1\ \ (\text{upward-sloping ⇒ strategic complements}); \quad e_1^{S}=\tfrac{20}{31},\ \ e_2^{S}=\tfrac{18}{31}. }
+\boxed{ R_2(e_1)=\tfrac{1}{2}+\tfrac{1}{8}e_1\ \ (\text{upward-sloping}); \quad e_1^{S}=\tfrac{20}{31},\ \ e_2^{S}=\tfrac{18}{31}. }
 $$
 
 These strategies constitute the SPNE of the sequential, perfect-information effort game: the follower’s $$R_2(\cdot)$$ is optimal in the Stage-2 subgame for every history, and the leader’s $$e_1^{S}$$ maximizes $$u_1(e_1,R_2(e_1))$$ at Stage 1 (SOCs satisfied), so the profile is a pair of history-contingent best responses in every subgame.
