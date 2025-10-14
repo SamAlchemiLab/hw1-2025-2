@@ -87,6 +87,12 @@ $$
 * Outcomes: $$S=\{B,R\}^5$$ (normal form).
 * Identical payoff function $$u_i:S\to\mathbb R$$ as defined above, parameterized by $$n_B(s)$$ and consistent with the blonde/brunette rules and a symmetric, ex-ante reassignment when $$n_B=0$$.
 
+##
+
+##
+
+##
+
 ***
 
 ### (b) Pure-strategy Nash equilibria
