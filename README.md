@@ -1099,7 +1099,9 @@ At these prices and incomes, $$B$$ is interior and chooses $$x_B=10-x_A$$​ by 
 
 ***
 
-####
+##
+
+##
 
 #### Derivation
 
@@ -1160,6 +1162,8 @@ $$
 In words, each firm chooses $$q_i^{\ast}$$​ given above; adding up gives $$Q^{\ast}$$, and plugging that into inverse demand gives $$p^{\ast}$$. This comes straight from each firm’s best-response to rivals and the symmetry $$q_1=q_2=q_3$$​; the condition $$A>c$$ ensures all three produce a positive amount in equilibrium.
 
 ***
+
+##
 
 ###
 
