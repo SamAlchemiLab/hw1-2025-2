@@ -1679,6 +1679,8 @@ Each firm posts $$R/2$$; workers then mix with $$\pi=\tfrac12$$​, so each firm
 | **MBC 6:00** | (16, 24, 30) | (30, 16, 24) |
 | **MBC 7:00** | (30, 23, 14) | (14, 24, 32) |
 
+####
+
 #### Derivation
 
 #### Step 1. KBS’s best response (compare payoffs across panels)
@@ -1711,6 +1713,8 @@ So 6:00 is a dominant action for KBS. Any Nash equilibrium must be in the upper 
 | 7:00      | 16        | 12        | 6:00    |
 
 The only mutual best-response intersection is (MBC 7:00, SBS 6:00) in the upper panel (payoffs 30, 16, 24). That profile is a pure-strategy Nash equilibrium.
+
+####
 
 #### Efficiency
 
