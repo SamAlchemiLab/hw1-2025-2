@@ -1068,6 +1068,8 @@ This is the standard decentralization move: pick prices that support the point a
 * **Agent A (corner** $$y_A=0y$$**)**: At price $$p_x$$, A’s unconstrained FOC would want $$x_A^{FOC}=1/(4p_x^2)=(10-x_A)/4\ge 2$$, but his income is only $$m_A=p_xx_A$$​. So he buys the most $$x$$ he can and sets $$y_A=0$$: $$(x_A,y_A)=(m_A/p_x,0)=(x_A,0)$$. Consistency check: bottom-edge efficiency gives $$\text{MRS}_A(x_A)=1/(2\sqrt{x_A})\ge p_x=\text{MRS}_B$$, so the $$y_A=0$$ corner satisfies the Kuhn–Tucker “no profitable move” condition for A.
 * **Markets**: $$x_A+x_B=10$$ and $$y_A+y_B=20$$; both budgets bind exactly. This is a valid competitive equilibrium by the CE definition.
 
+##
+
 ***
 
 #### Answer
