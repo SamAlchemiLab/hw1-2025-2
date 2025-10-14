@@ -1617,6 +1617,8 @@ $$
 
 These formulas use exactly the hiring rule and timing stated in Q4(d) (firms pick wages first; a hire yields revenue $$R$$; otherwise zero).
 
+##
+
 #### Efficiency (two lenses)
 
 First, “how many hires happen (allocative view).” With two workers and two firms, the expected number of hires under a symmetric mix $$\pi$$ is
