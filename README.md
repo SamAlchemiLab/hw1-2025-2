@@ -522,6 +522,14 @@ Read timing through an externality lens: with negative cross-effects the leader 
 
 ***
 
+###
+
+###
+
+###
+
+###
+
 ### (d) Simultaneous effort game: BRs, NE, and efficiency benchmark
 
 * Specify the roommate “public-good–type” environment as a normal-form game.
