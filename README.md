@@ -353,7 +353,11 @@ $$
 In the efficient (joint-profit-maximizing) benchmark,
 
 $$
-\boxed{ Q^\ast=\frac{7}{2},\quad p^\ast=\frac{9}{2},\quad \Pi^\ast=\frac{49}{4};\ \text{a symmetric split gives }q_i^\ast=\frac{7}{4},\ \pi_i^\ast=\frac{49}{8}\ (\approx 6.125). }
+\boxed{ Q^\ast=\frac{7}{2},\quad p^\ast=\frac{9}{2},\quad \Pi^\ast=\frac{49}{4};}
+$$
+
+$$
+\boxed{\text{a symmetric split gives }q_i^\ast=\frac{7}{4},\ \pi_i^\ast=\frac{49}{8}\ (\approx 6.125). }
 $$
 
 Cournot’s equilibrium features downward-sloping best responses (strategic substitutes) and over-production relative to the efficient level because each firm ignores the negative price effect its output imposes on the rival (business-stealing externality).
