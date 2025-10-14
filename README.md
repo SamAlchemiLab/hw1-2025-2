@@ -1392,8 +1392,6 @@ Relative to this benchmark, the $$n$$-firm Cournot outcome has a price–cost we
 
 ***
 
-##
-
 ***
 
 ## Q4: the endogenous cost of searching
