@@ -498,6 +498,8 @@ $$
 \pi_1^{S}=\frac{49}{8}=6.125,\qquad \pi_2^{S}=\frac{49}{16}=3.0625.
 $$
 
+###
+
 Therefore, the payoffs satisfy
 
 $$
