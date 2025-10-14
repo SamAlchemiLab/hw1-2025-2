@@ -60,6 +60,12 @@ $$
 5\tfrac{1}{5}\cdot 2+\tfrac{4}{5}\cdot 1=\tfrac{6}{5}
 $$
 
+####
+
+####
+
+####
+
 #### Identical payoff function
 
 Putting the cases together, for any player $$i\in N$$ and any profile $$s\in S$$,
