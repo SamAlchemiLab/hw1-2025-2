@@ -1168,13 +1168,13 @@ In words, each firm chooses $$q_i^{\ast}$$​ given above; adding up gives $$Q^{
 
 #### Derivation
 
-I keep the linear inverse demand and constant marginal cost exactly as in (a). With $$n$$ firms, firm $$i$$ takes the other firms’ total $$q_{-i}$$​ as given and chooses its own $$q_i$$​. The profit function is the same object as before, just with $$q_{-i}$$​ now summing over $$n-1$$ rivals.
+We keep the linear inverse demand and constant marginal cost exactly as in (a). With $$n$$ firms, firm $$i$$ takes the other firms’ total $$q_{-i}$$​ as given and chooses its own $$q_i$$​. The profit function is the same object as before, just with $$q_{-i}$$​ now summing over $$n-1$$ rivals.
 
 $$
 \pi_i(q_i,q_{-i})=\big(A-B(q_i+q_{-i})-c\big)\,q_i.
 $$
 
-I differentiate with respect to $$q_i$$​ and set it to zero to get firm $$i$$’s best-response function. This is identical in shape to (a); only $$q_{-i}$$​ is now the sum of $$n-1$$ others.
+We differentiate with respect to $$q_i$$​ and set it to zero to get firm $$i$$’s best-response function. This is identical in shape to (a); only $$q_{-i}$$​ is now the sum of $$n-1$$ others.
 
 $$
 \frac{\partial \pi_i}{\partial q_i}=A-c-2Bq_i-Bq_{-i}=0,
@@ -1244,7 +1244,7 @@ In words, starting from the usual reaction function and imposing symmetry across
 
 #### Derivation
 
-I use the same linear inverse demand and constant marginal cost setup as before. Let each firm $$i$$ choose quantity $$q_i$$, define rivals’ output by $$q_{-i}$$, and denote aggregate output by $$Q$$. The notes emphasize solving Cournot via each firm’s reaction to rivals. This is where “strategic substitutes” appear: when others produce more, my best response is lower.
+We use the same linear inverse demand and constant marginal cost setup as before. Let each firm $$i$$ choose quantity $$q_i$$, define rivals’ output by $$q_{-i}$$, and denote aggregate output by $$Q$$. The notes emphasize solving Cournot via each firm’s reaction to rivals. This is where “strategic substitutes” appear: when others produce more, my best response is lower.
 
 $$
 \pi_i(q_i,q_{-i})=\big(A-B(q_i+q_{-i})-c\big)\,q_i.
@@ -1262,19 +1262,23 @@ $$
 q_1=\cdots=q_n\equiv q^{\ast},\qquad q_{-i}=(n-1)q^{\ast}.
 $$
 
-I now impose symmetry. Each firm chooses the same quantity $$q^{\ast}$$, so rivals’ total is $$(n-1)q^{\ast}$$.
+We now impose symmetry. Each firm chooses the same quantity $$q^{\ast}$$, so rivals’ total is $$(n-1)q^{\ast}$$.
 
 $$
-q^{\ast}=\frac{A-c-B(n-1)q^{\ast}}{2B} \quad\Longrightarrow\quad B(n+1)\,q^{\ast}=A-c \quad\Longrightarrow\quad q^{\ast}=\frac{A-c}{B(n+1)}.
+q^{\ast}=\frac{A-c-B(n-1)q^{\ast}}{2B} \quad\Longrightarrow\quad B(n+1)\,q^{\ast}=A-c
 $$
 
-This gives the per-firm Cournot quantity. I next aggregate across firms and back out the market price.
+$$
+\quad\Longrightarrow\quad q^{\ast}=\frac{A-c}{B(n+1)}.
+$$
+
+This gives the per-firm Cournot quantity. We next aggregate across firms and back out the market price.
 
 $$
 Q^{\ast}=n\,q^{\ast}=\frac{n(A-c)}{B(n+1)}, \qquad p^{\ast}=A-BQ^{\ast}=\frac{A+nc}{\,n+1\,}.
 $$
 
-These are the equilibrium total output and price when there are nnn identical Cournot competitors. The condition $$A>c$$ guarantees interior quantities for all firms. The part (c) prompt also asks to show the perfect-competition limit; with $$p=MC=c$$ the competitive quantity solves $$A-BQ=c$$, i.e. $$Q=(A-c)/B$$. Taking $$n\to\infty$$ in the Cournot outcome delivers exactly that limit.
+These are the equilibrium total output and price when there are $$n$$ identical Cournot competitors. The condition $$A>c$$ guarantees interior quantities for all firms. The part (c) prompt also asks to show the perfect-competition limit; with $$p=MC=c$$ the competitive quantity solves $$A-BQ=c$$, i.e. $$Q=(A-c)/B$$. Taking $$n\to\infty$$ in the Cournot outcome delivers exactly that limit.
 
 $$
 \lim_{n\to\infty}p^{\ast}=c, \qquad \lim_{n\to\infty}Q^{\ast}=\frac{A-c}{B}.
@@ -1287,7 +1291,11 @@ Intuitively, as the number of firms grows, each firm’s residual demand becomes
 #### Answer
 
 $$
-q_i^{\ast}=\frac{A-c}{B(n+1)},\qquad Q^{\ast}=\frac{n(A-c)}{B(n+1)},\qquad p^{\ast}=\frac{A+nc}{n+1}, \qquad \lim_{n\to\infty}(p^{\ast},Q^{\ast})=\big(c,\tfrac{A-c}{B}\big).
+q_i^{\ast}=\frac{A-c}{B(n+1)},\qquad Q^{\ast}=\frac{n(A-c)}{B(n+1)},\qquad p^{\ast}=\frac{A+nc}{n+1},
+$$
+
+$$
+\qquad \lim_{n\to\infty}(p^{\ast},Q^{\ast})=\big(c,\tfrac{A-c}{B}\big).
 $$
 
 In words, the reaction-function method yields the per-firm quantity shown above; summing gives total output and substituting into inverse demand gives price. As the number of firms grows without bound, the Cournot outcome converges to the competitive benchmark where price equals marginal cost and total output equals $$(A-c)/B$$.
