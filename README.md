@@ -669,6 +669,8 @@ In part (e), the timing is sequential with perfect information: roommate 1 choos
 
 Methodologically we apply Backward Induction (BWI) for finite-horizon, perfect-information games: solve Stage 2, plug the reaction into Stage 1, then report history-contingent strategies that are best responses in every subgame.
 
+####
+
 #### Stage 2 — Follower’s problem
 
 Fix $$e_1$$​. Player 2 chooses $$e_2\ge 0$$ to maximize $$u_2(e_1,e_2)= e_1 + e_2 + \frac{e_1 e_2}{4} - e_2^2$$​.
