@@ -140,7 +140,7 @@ $$
 
 #### Step 3. Eight-layer summary
 
-<table><thead><tr><th width="124.16339111328125">Layer</th><th width="75.55670166015625">K</th><th width="393.2718505859375">PSNE in the 5-player game</th></tr></thead><tbody><tr><td><span class="math">RRR</span></td><td>0</td><td><span class="math">(\mathbf{B},R,R,R,R), (R,\mathbf{B},R,R,R)</span></td></tr><tr><td><span class="math">RRB</span></td><td>1</td><td><span class="math">(R,R,R,R,\mathbf{B})</span></td></tr><tr><td><span class="math">RBR</span></td><td>1</td><td><span class="math">(R,R,R,\mathbf{B},R)</span></td></tr><tr><td><span class="math">BRR</span></td><td>1</td><td><span class="math">(R,R,\mathbf{B},R,R)</span></td></tr><tr><td><span class="math">RBB</span></td><td>2</td><td>none</td></tr><tr><td><span class="math">BRB</span></td><td>2</td><td>none</td></tr><tr><td><span class="math">BBR</span></td><td>2</td><td>none</td></tr><tr><td><span class="math">BBB</span></td><td>3</td><td>none</td></tr></tbody></table>
+<table><thead><tr><th width="93.1070556640625">Layer</th><th width="75.55670166015625">K</th><th width="301.7406005859375">PSNE in the 5-player game</th><th></th></tr></thead><tbody><tr><td><span class="math">RRR</span></td><td>0</td><td><span class="math">(\mathbf{B},R,R,R,R), (R,\mathbf{B},R,R,R)</span></td><td></td></tr><tr><td><span class="math">RRB</span></td><td>1</td><td><span class="math">(R,R,R,R,\mathbf{B})</span></td><td></td></tr><tr><td><span class="math">RBR</span></td><td>1</td><td><span class="math">(R,R,R,\mathbf{B},R)</span></td><td></td></tr><tr><td><span class="math">BRR</span></td><td>1</td><td><span class="math">(R,R,\mathbf{B},R,R)</span></td><td></td></tr><tr><td><span class="math">RBB</span></td><td>2</td><td>none</td><td></td></tr><tr><td><span class="math">BRB</span></td><td>2</td><td>none</td><td></td></tr><tr><td><span class="math">BBR</span></td><td>2</td><td>none</td><td></td></tr><tr><td><span class="math">BBB</span></td><td>3</td><td>none</td><td></td></tr></tbody></table>
 
 ***
 
@@ -360,7 +360,7 @@ $$
 \boxed{\text{a symmetric split gives }q_i^\ast=\frac{7}{4},\ \pi_i^\ast=\frac{49}{8}\ (\approx 6.125). }
 $$
 
-Cournot’s equilibrium features downward-sloping best responses (strategic substitutes) and over-production relative to the efficient level because each firm ignores the negative price effect its output imposes on the rival (business-stealing externality).
+Cournot over-produces because each firm ignores the negative price externality on rivals; the quantity wedge relative to the planner solution is exactly this uninternalized cross-effect.
 
 ***
 
@@ -468,6 +468,8 @@ $$
 (q_1,q_2)=\left(\frac{7}{2},\,\frac{7}{4}\right),\quad p=\frac{11}{4},\quad \pi_1=\frac{49}{8},\quad \pi_2=\frac{49}{16}.
 $$
 
+Leader commitment internalizes the rival’s reaction and benefits precisely because the market exhibits negative cross-effects (strategic substitutes).
+
 ***
 
 ### (c) First- vs. second-mover advantage in a sequential quantity game
@@ -509,6 +511,8 @@ In Cournot/Stackelberg quantity competition, best responses are downward-sloping
 #### Answer
 
 First-mover advantage.
+
+Read timing through an externality lens: with negative cross-effects the leader harvests the gain from pushing rivals down; with positive cross-effects the follower captures benefits created by the leader.
 
 ***
 
@@ -600,7 +604,7 @@ $$
 
 Thus the simultaneous-move NE under-provides effort relative to the utilitarian benchmark.&#x20;
 
-**why NE under-provides effort?**
+**Why NE under-provides effort?**
 
 Each player internalizes only the private marginal benefit $$1+\tfrac{e_j}{4}$$​​ when choosing $$e_i$$​ (the BR FOC), but the planner internalizes the social marginal benefit $$2+\tfrac{e_j}{2}$$ (the $$W$$ FOC). The missing $$\tfrac{1}{2}e_j$$ term is the positive externality on the other roommate, so decentralized behavior free-rides and delivers too little effort—standard public-good logic.
 
@@ -778,6 +782,8 @@ u_2^S=\tfrac{944}{961}>u_1^S=\tfrac{28}{31}>u_i^N=\tfrac{44}{49}.
 $$
 
 Because efforts are strategic complements (upward-sloping BRs), the follower earns more than the leader in the sequential SPNE and more than in the simultaneous game; by contrast, with strategic substitutes (Cournot quantities) the leader enjoys the advantage. The direction of timing advantage is pinned down by the sign of the BR slope.
+
+“BR-slope rule = ‘externality direction’ rule”: downward BRs + negative cross-effects → leader advantage; upward BRs + positive cross-effects → follower advantage.
 
 ***
 
@@ -1666,6 +1672,8 @@ The only mutual best-response intersection is (MBC 7:00, SBS 6:00) in the upper 
 **Nash equilibrium:** (MBC 7:00, SBS 6:00, KBS 6:00) with payoffs (30, 16, 24).\
 **Why:** KBS has a dominant action (6:00), and given KBS=6:00 the MBC–SBS 2×2 has a single mutual best-response cell at (7:00, 6:00).\
 **Efficiency:** Not utilitarian-efficient (total 70 vs. max 75), but Pareto-undominated within the table.
+
+Time-slot choices impose cross-audience externalities; the equilibrium is privately stable but socially suboptimal because each network ignores the harm to rivals’ audience.
 
 ***
 
