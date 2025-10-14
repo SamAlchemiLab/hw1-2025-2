@@ -1554,6 +1554,8 @@ $$
 
 When $$\tfrac{w_2}{2}<w_1<2w_2$$​, there are also two asymmetric pure equilibria (one worker to each firm), in addition to the symmetric mixed equilibrium above.
 
+##
+
 ***
 
 #### Answer
