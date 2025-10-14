@@ -1388,6 +1388,8 @@ Relative to this benchmark, the $$n$$-firm Cournot outcome has a price–cost we
 
 ***
 
+##
+
 ***
 
 ## Q4: the endogenous cost of searching
@@ -1426,7 +1428,11 @@ These expressions come straight from weighting each hiring event by the chance t
 #### Answer
 
 $$
-\mathbb{E}[u_1\mid \text{apply to firm 1}] = w_1\Big(1-\tfrac{\pi}{2}\Big),\qquad \mathbb{E}[u_1\mid \text{apply to firm 2}] = w_2\Big(\tfrac{1}{2}+\tfrac{\pi}{2}\Big).
+\mathbb{E}[u_1\mid \text{apply to firm 1}] = w_1\Big(1-\tfrac{\pi}{2}\Big),
+$$
+
+$$
+\mathbb{E}[u_1\mid \text{apply to firm 2}] = w_2\Big(\tfrac{1}{2}+\tfrac{\pi}{2}\Big).
 $$
 
 In words, if worker 2 targets firm 1 more often (higher $$\pi$$), worker 1’s expected payoff from applying to firm 1 falls because collisions become more likely, while the expected payoff from applying to firm 2 rises since worker 1 is more often the sole applicant there.
